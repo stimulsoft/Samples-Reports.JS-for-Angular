@@ -17,7 +17,7 @@ export class AppComponent {
 
     console.log('Set full screen mode for the designer');    
     this.options = new Stimulsoft.Designer.StiDesignerOptions();
-    this.options.appearance.fullScreenMode = false;
+    this.options.appearance.fullScreenMode = true;
 
     console.log('Create the report designer with specified options');
     this.designer = new Stimulsoft.Designer.StiDesigner(this.options, 'StiDesigner', false);
