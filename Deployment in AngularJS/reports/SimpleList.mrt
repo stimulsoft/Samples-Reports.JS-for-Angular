@@ -1,661 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Culture isNull="true" />
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Demo Ref="2" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
+        <Alias>Demo</Alias>
+        <HeadersString />
+        <Key>209828737e314696a51ea1d89f5a9b15</Key>
+        <Name>Demo</Name>
+        <PathData>/reports/Demo.json</PathData>
+      </Demo>
+    </Databases>
+    <DataSources isList="true" count="1">
+      <Customers Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Customers</Alias>
+        <Columns isList="true" count="11">
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Country,System.String</value>
+          <value>CustomerID,System.String</value>
+          <value>Fax,System.String</value>
+          <value>Phone,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Region,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>b356ddee950047f8aa363d0f059d9352</Key>
+        <Name>Customers</Name>
+        <NameInSource>Demo.Customers</NameInSource>
+      </Customers>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <UserFunctions isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>feb11f1774b141838099ad870da1726f</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="4" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <PageFooterBand1 Ref="5" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,1071,749,20</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text6 Ref="6" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,749,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Name>Text6</Name>
+              <Page isRef="4" />
+              <Parent isRef="5" />
+              <Text>{PageNofM}</Text>
+              <TextBrush>[166:166:166]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </PageFooterBand1>
+        <ReportTitleBand2 Ref="7" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,20,749,80</ClientRectangle>
+          <Components isList="true" count="4">
+            <Text20 Ref="8" type="Text" isKey="true">
+              <Border>Bottom;[166:166:166];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>570,0,179,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
+              <Guid>426e9ac30a6840e7b47553f34723b8df</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,3,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Text>{ReportAuthor}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text23 Ref="9" type="Text" isKey="true">
+              <Border>Bottom;[166:166:166];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,570,40</ClientRectangle>
+              <ComponentStyle>Header1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
+              <Guid>1bc08e78ae20472481fe55b04ade5b6a</Guid>
+              <Margins>2,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Text>{ReportName}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text17 Ref="10" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,40,570,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Guid>75b851754174412ab8c478e5c8479f92</Guid>
+              <Margins>6,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Text>{ReportDescription}</Text>
+              <TextBrush>[166:166:166]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text17>
+            <Text18 Ref="11" type="Text" isKey="true">
+              <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>570,40,179,20</ClientRectangle>
+              <ComponentStyle>Footer1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <Guid>65f5c368912b4240a21d18c95400ea00</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,4,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="4" />
+              <Parent isRef="7" />
+              <Text>Date: {Today.ToString("Y")}</Text>
+              <TextBrush>[166:166:166]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+            </Text18>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Guid>0e78e53250ce4a74baab882ac9d3f6e0</Guid>
+          <Name>ReportTitleBand2</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+        </ReportTitleBand2>
+        <HeaderBand1 Ref="12" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,140,749,40</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text11 Ref="13" type="Text" isKey="true">
+              <Border>Top, Left, Right;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[255:164:114]</Brush>
+              <ClientRectangle>270,0,200,40</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Name>Text11</Name>
+              <Page isRef="4" />
+              <Parent isRef="12" />
+              <Text>Address</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text12 Ref="14" type="Text" isKey="true">
+              <Border>Top;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[255:164:114]</Brush>
+              <ClientRectangle>470.5,0,119,40</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Name>Text12</Name>
+              <Page isRef="4" />
+              <Parent isRef="12" />
+              <ShiftMode>DecreasingSize, OnlyInWidthOfComponent</ShiftMode>
+              <Text>Phone</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text13 Ref="15" type="Text" isKey="true">
+              <Border>Top, Left;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[255:164:114]</Brush>
+              <ClientRectangle>590,0,159,40</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Name>Text13</Name>
+              <Page isRef="4" />
+              <Parent isRef="12" />
+              <Text>Contact</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text10 Ref="16" type="Text" isKey="true">
+              <Border>Top, Left, Right;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[255:164:114]</Brush>
+              <ClientRectangle>30,0,240,40</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Name>Text10</Name>
+              <Page isRef="4" />
+              <Parent isRef="12" />
+              <Text>Company</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text5 Ref="17" type="Text" isKey="true">
+              <Border>Top;[255:255:255];1;Solid;False;4;Black</Border>
+              <Brush>[255:164:114]</Brush>
+              <ClientRectangle>0,0,29.5,40</ClientRectangle>
+              <ComponentStyle>Header2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,12,Bold,Point,False,204</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Name>Text5</Name>
+              <Page isRef="4" />
+              <Parent isRef="12" />
+              <Text>№</Text>
+              <TextBrush>[255:255:255]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <PrintIfEmpty>True</PrintIfEmpty>
+        </HeaderBand1>
+        <DataBand1 Ref="18" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,220,749,20</ClientRectangle>
+          <Components isList="true" count="5">
+            <Text4 Ref="19" type="Text" isKey="true">
+              <Border>All;[194:194:194];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>470,0,120,20</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>3,3,3,3</Margins>
+              <Name>Text4</Name>
+              <Page isRef="4" />
+              <Parent isRef="18" />
+              <Text>{Customers.Phone}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <TextOptions>,,,Trimming=Character,,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text3 Ref="20" type="Text" isKey="true">
+              <Border>All;[194:194:194];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>590,0,159,20</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>3,3,3,3</Margins>
+              <Name>Text3</Name>
+              <Page isRef="4" />
+              <Parent isRef="18" />
+              <Text>{Customers.ContactTitle}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <TextOptions>,,,Trimming=Character,,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text1 Ref="21" type="Text" isKey="true">
+              <Border>All;[194:194:194];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>30,0,240,20</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>3,3,3,3</Margins>
+              <Name>Text1</Name>
+              <Page isRef="4" />
+              <Parent isRef="18" />
+              <Text>{Customers.CompanyName}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <TextOptions>,,,Trimming=Character,,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="22" type="Text" isKey="true">
+              <Border>All;[194:194:194];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>270,0,200,20</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>3,3,3,3</Margins>
+              <Name>Text2</Name>
+              <Page isRef="4" />
+              <Parent isRef="18" />
+              <Text>{Customers.Address}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <TextOptions>,,,Trimming=Character,,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text7 Ref="23" type="Text" isKey="true">
+              <Border>All;[194:194:194];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,30,20</ClientRectangle>
+              <ComponentStyle>Data1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>5b832677f467498487ebd4777d80e7b0</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>3,3,3,3</Margins>
+              <Name>Text7</Name>
+              <Page isRef="4" />
+              <Parent isRef="18" />
+              <Text>{Line}</Text>
+              <TextBrush>[64:64:64]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Customers</DataSourceName>
+          <EvenStyle>Data2</EvenStyle>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="4" />
+          <Parent isRef="4" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>366bfdc35bcf48f3aeb38f2b5f58db21</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Page1</Name>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="24" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100,Bold</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PreviewSettings>125772287</PreviewSettings>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Simple List</ReportAlias>
+  <ReportAuthor>Stimulsoft</ReportAuthor>
+  <ReportChanged>1/14/2025 11:01:29 AM</ReportChanged>
+  <ReportCreated>5/29/2004 10:59:00 AM</ReportCreated>
+  <ReportDescription>This sample demonstrates how to create a simple list report.</ReportDescription>
+  <ReportFile>D:\SimpleList.mrt</ReportFile>
+  <ReportGuid>4af85f4926b34ed39f4e39ec6757fc62</ReportGuid>
+  <ReportName>Simple List</ReportName>
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2025.1.3.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.ReportControls;
+using Stimulsoft.Report.Components;
+
+namespace Reports
 {
-  "ReportVersion": "2015.2.0",
-  "ReportGuid": "e124555e3a994d7c894fecd805a15efd",
-  "ReportName": "Report",
-  "ReportAlias": "Simple List",
-  "ReportAuthor": "Stimulsoft",
-  "ReportDescription": "This sample demonstrates how to create a simple list report.",
-  "ReportCreated": "/Date(1085817540000+0300)/",
-  "ReportChanged": "/Date(1437976152000+0300)/",
-  "EngineVersion": "EngineV2",
-  "PreviewMode": "StandardAndDotMatrix",
-  "PreviewSettings": 33538047,
-  "Script": "using System;\r\nusing System.Drawing;\r\nusing System.Windows.Forms;\r\nusing System.Data;\r\nusing Stimulsoft.Controls;\r\nusing Stimulsoft.Base.Drawing;\r\nusing Stimulsoft.Report;\r\nusing Stimulsoft.Report.ReportControls;\r\nusing Stimulsoft.Report.Components;\r\n\r\nnamespace Reports\r\n{\r\n    \r\n    public class SimpleList : Stimulsoft.Report.StiReport\r\n    {\r\n        \r\n\t\tpublic SimpleList()\r\n        {\r\n            this.InitializeComponent();\r\n        }\r\n        #region StiReport Designer generated code - do not modify\r\n\t\t#endregion StiReport Designer generated code - do not modify\r\n    }\r\n}",
-  "Styles": {
-    "0": {
-      "Ident": "StiStyle",
-      "Name": "Title1",
-      "HorAlignment": "Right",
-      "VertAlignment": "Center",
-      "Font": ";19;;",
-      "Border": ";193,152,89;;;;;;solid:Black",
-      "Brush": "solid:",
-      "TextBrush": "solid:193,152,89",
-      "AllowUseBorderSides": false
-    },
-    "1": {
-      "Ident": "StiStyle",
-      "Name": "Title2",
-      "VertAlignment": "Center",
-      "Font": ";9;;",
-      "Border": ";102,77,38;;;;;;solid:Black",
-      "Brush": "solid:",
-      "TextBrush": "solid:102,77,38",
-      "AllowUseBorderSides": false
-    },
-    "2": {
-      "Ident": "StiStyle",
-      "Name": "Header1",
-      "VertAlignment": "Center",
-      "Font": ";19;;",
-      "Border": ";193,152,89;;;;;;solid:Black",
-      "Brush": "solid:",
-      "TextBrush": "solid:193,152,89",
-      "AllowUseBorderSides": false
-    },
-    "3": {
-      "Ident": "StiStyle",
-      "Name": "Header2",
-      "HorAlignment": "Center",
-      "VertAlignment": "Center",
-      "Font": ";12;Bold;",
-      "Border": ";193,152,89;;;;;;solid:Black",
-      "Brush": "solid:",
-      "TextBrush": "solid:193,152,89",
-      "AllowUseBorderSides": false
-    },
-    "4": {
-      "Ident": "StiStyle",
-      "Name": "Header3",
-      "HorAlignment": "Center",
-      "VertAlignment": "Center",
-      "Font": ";9;Bold;",
-      "Border": "All;193,152,89;;;;;;solid:Black",
-      "Brush": "solid:242,234,221",
-      "TextBrush": "solid:193,152,89",
-      "AllowUseBorderSides": false
-    },
-    "5": {
-      "Ident": "StiStyle",
-      "Name": "Data1",
-      "VertAlignment": "Center",
-      "Font": ";9;;",
-      "Border": ";193,152,89;;;;;;solid:Black",
-      "Brush": "solid:",
-      "TextBrush": "solid:102,77,38",
-      "AllowUseBorderSides": false
-    },
-    "6": {
-      "Ident": "StiStyle",
-      "Name": "Data2",
-      "Font": ";9;;",
-      "Border": ";;;;;;;solid:Black",
-      "Brush": "solid:240,237,232",
-      "TextBrush": "solid:Black",
-      "AllowUseFont": false,
-      "AllowUseBorderFormatting": false,
-      "AllowUseBorderSides": false,
-      "AllowUseTextBrush": false,
-      "AllowUseTextOptions": false
-    },
-    "7": {
-      "Ident": "StiStyle",
-      "Name": "Data3",
-      "VertAlignment": "Center",
-      "Font": ";9;;",
-      "Border": ";193,152,89;;;;;;solid:Black",
-      "Brush": "solid:240,237,232",
-      "TextBrush": "solid:102,77,38",
-      "AllowUseBorderSides": false
-    },
-    "8": {
-      "Ident": "StiStyle",
-      "Name": "Footer1",
-      "VertAlignment": "Center",
-      "Font": ";9;;",
-      "Border": "Top;193,152,89;;;;;;solid:Black",
-      "Brush": "solid:",
-      "TextBrush": "solid:102,77,38",
-      "AllowUseBorderSides": false
-    },
-    "9": {
-      "Ident": "StiStyle",
-      "Name": "Footer2",
-      "HorAlignment": "Right",
-      "VertAlignment": "Center",
-      "Font": ";12;Bold;",
-      "Border": ";193,152,89;;;;;;solid:Black",
-      "Brush": "solid:",
-      "TextBrush": "solid:193,152,89",
-      "AllowUseBorderSides": false
-    }
-  },
-  "ReferencedAssemblies": {
-    "0": "System.Dll",
-    "1": "System.Drawing.Dll",
-    "2": "System.Windows.Forms.Dll",
-    "3": "System.Data.Dll",
-    "4": "System.Xml.Dll",
-    "5": "Stimulsoft.Base.Dll",
-    "6": "Stimulsoft.Controls.Dll",
-    "7": "Stimulsoft.Report.Dll"
-  },
-  "Dictionary": {
-    "DataSources": {
-      "0": {
-        "Ident": "StiDataTableSource",
-        "Name": "Customers",
-        "Alias": "Customers",
-        "Columns": {
-          "0": {
-            "Name": "Address",
-            "Index": -1,
-            "NameInSource": "Address",
-            "Alias": "Address",
-            "Type": "System.String"
-          },
-          "1": {
-            "Name": "City",
-            "Index": -1,
-            "NameInSource": "City",
-            "Alias": "City",
-            "Type": "System.String"
-          },
-          "2": {
-            "Name": "CompanyName",
-            "Index": -1,
-            "NameInSource": "CompanyName",
-            "Alias": "CompanyName",
-            "Type": "System.String"
-          },
-          "3": {
-            "Name": "ContactName",
-            "Index": -1,
-            "NameInSource": "ContactName",
-            "Alias": "ContactName",
-            "Type": "System.String"
-          },
-          "4": {
-            "Name": "ContactTitle",
-            "Index": -1,
-            "NameInSource": "ContactTitle",
-            "Alias": "ContactTitle",
-            "Type": "System.String"
-          },
-          "5": {
-            "Name": "Country",
-            "Index": -1,
-            "NameInSource": "Country",
-            "Alias": "Country",
-            "Type": "System.String"
-          },
-          "6": {
-            "Name": "CustomerID",
-            "Index": -1,
-            "NameInSource": "CustomerID",
-            "Alias": "CustomerID",
-            "Type": "System.String"
-          },
-          "7": {
-            "Name": "Fax",
-            "Index": -1,
-            "NameInSource": "Fax",
-            "Alias": "Fax",
-            "Type": "System.String"
-          },
-          "8": {
-            "Name": "Phone",
-            "Index": -1,
-            "NameInSource": "Phone",
-            "Alias": "Phone",
-            "Type": "System.String"
-          },
-          "9": {
-            "Name": "PostalCode",
-            "Index": -1,
-            "NameInSource": "PostalCode",
-            "Alias": "PostalCode",
-            "Type": "System.String"
-          },
-          "10": {
-            "Name": "Region",
-            "Index": -1,
-            "NameInSource": "Region",
-            "Alias": "Region",
-            "Type": "System.String"
-          }
-        },
-        "NameInSource": "Demo.Customers"
-      }
-    },
-    "Databases": {
-      "0": {
-        "Ident": "StiJsonDatabase",
-        "Name": "Demo",
-        "Alias": "Demo",
-        "PathData": "/reports/Demo.json"
-      }
-    }
-  },
-  "Pages": {
-    "0": {
-      "Ident": "StiPage",
-      "Name": "Page1",
-      "Guid": "366bfdc35bcf48f3aeb38f2b5f58db21",
-      "Interaction": {
-        "Ident": "StiInteraction"
-      },
-      "Border": ";;2;;;;;solid:Black",
-      "Brush": "solid:",
-      "Components": {
-        "0": {
-          "Ident": "StiPageFooterBand",
-          "Name": "PageFooterBand1",
-          "ClientRectangle": "0,27.3,19,0.4",
-          "Interaction": {
-            "Ident": "StiInteraction"
-          },
-          "Border": ";;;;;;;solid:Black",
-          "Brush": "solid:",
-          "Components": {
-            "0": {
-              "Ident": "StiText",
-              "Name": "Text6",
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "6.8,0,12.2,0.4",
-              "ComponentStyle": "Footer1",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "{PageNofM}"
-              },
-              "HorAlignment": "Right",
-              "VertAlignment": "Center",
-              "Font": ";9;;",
-              "Border": ";193,152,89;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:102,77,38"
-            }
-          }
-        },
-        "1": {
-          "Ident": "StiReportTitleBand",
-          "Name": "ReportTitleBand2",
-          "Guid": "0e78e53250ce4a74baab882ac9d3f6e0",
-          "ClientRectangle": "0,0.4,19,2",
-          "Interaction": {
-            "Ident": "StiInteraction"
-          },
-          "Border": ";;;;;;;solid:Black",
-          "Brush": "solid:",
-          "Components": {
-            "0": {
-              "Ident": "StiText",
-              "Name": "Text20",
-              "Guid": "426e9ac30a6840e7b47553f34723b8df",
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "9.4,0,9.6,0.8",
-              "ComponentStyle": "Title1",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "Stimulsoft"
-              },
-              "HorAlignment": "Right",
-              "VertAlignment": "Center",
-              "Font": ";19;;",
-              "Border": "Bottom;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:193,152,89",
-              "Type": "Expression"
-            },
-            "1": {
-              "Ident": "StiText",
-              "Name": "Text23",
-              "Guid": "1bc08e78ae20472481fe55b04ade5b6a",
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "0,0,9.4,0.8",
-              "ComponentStyle": "Title1",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "Simple List"
-              },
-              "VertAlignment": "Center",
-              "Font": ";19;;",
-              "Border": "Bottom;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:193,152,89",
-              "Type": "Expression"
-            },
-            "2": {
-              "Ident": "StiText",
-              "Name": "Text17",
-              "Guid": "75b851754174412ab8c478e5c8479f92",
-              "CanGrow": true,
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "0,1,14.6,0.8",
-              "ComponentStyle": "Title2",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "{ReportDescription}"
-              },
-              "Font": ";9;;",
-              "Border": ";102,77,38;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:102,77,38",
-              "TextOptions": {
-                "WordWrap": true
-              },
-              "Type": "Expression"
-            },
-            "3": {
-              "Ident": "StiText",
-              "Name": "Text18",
-              "Guid": "65f5c368912b4240a21d18c95400ea00",
-              "CanGrow": true,
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "14.6,1,4.4,0.8",
-              "ComponentStyle": "Title2",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "Date: {Today.ToString(\"Y\")}"
-              },
-              "HorAlignment": "Right",
-              "Font": ";9;;",
-              "Border": ";102,77,38;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:102,77,38",
-              "TextOptions": {
-                "WordWrap": true
-              },
-              "Type": "Expression",
-              "TextFormat": {
-                "Ident": "StiDateFormatService",
-                "StringFormat": "yyyy, MMMM"
-              }
-            }
-          }
-        },
-        "2": {
-          "Ident": "StiHeaderBand",
-          "Name": "HeaderBand1",
-          "ClientRectangle": "0,3.2,19,0.6",
-          "Interaction": {
-            "Ident": "StiInteraction"
-          },
-          "Border": ";;;;;;;solid:Black",
-          "Brush": "solid:",
-          "Components": {
-            "0": {
-              "Ident": "StiText",
-              "Name": "Text11",
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "6.8,0,5.2,0.6",
-              "ComponentStyle": "Header3",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "Address"
-              },
-              "HorAlignment": "Center",
-              "VertAlignment": "Center",
-              "Font": ";9;Bold;",
-              "Border": "All;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:242,234,221",
-              "TextBrush": "solid:193,152,89"
-            },
-            "1": {
-              "Ident": "StiText",
-              "Name": "Text12",
-              "ShiftMode": "DecreasingSize, OnlyInWidthOfComponent",
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "12,0,3,0.6",
-              "ComponentStyle": "Header3",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "Phone"
-              },
-              "HorAlignment": "Center",
-              "VertAlignment": "Center",
-              "Font": ";9;Bold;",
-              "Border": "All;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:242,234,221",
-              "TextBrush": "solid:193,152,89"
-            },
-            "2": {
-              "Ident": "StiText",
-              "Name": "Text13",
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "15,0,4,0.6",
-              "ComponentStyle": "Header3",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "Contact"
-              },
-              "HorAlignment": "Center",
-              "VertAlignment": "Center",
-              "Font": ";9;Bold;",
-              "Border": "All;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:242,234,221",
-              "TextBrush": "solid:193,152,89"
-            },
-            "3": {
-              "Ident": "StiText",
-              "Name": "Text10",
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "0,0,6.8,0.6",
-              "ComponentStyle": "Header3",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "Company"
-              },
-              "HorAlignment": "Center",
-              "VertAlignment": "Center",
-              "Font": ";9;Bold;",
-              "Border": "All;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:242,234,221",
-              "TextBrush": "solid:193,152,89"
-            }
-          },
-          "PrintIfEmpty": true
-        },
-        "3": {
-          "Ident": "StiDataBand",
-          "Name": "DataBand1",
-          "ClientRectangle": "0,4.6,19,0.6",
-          "Interaction": {
-            "Ident": "StiBandInteraction"
-          },
-          "Border": ";;;;;;;solid:Black",
-          "Brush": "solid:",
-          "Components": {
-            "0": {
-              "Ident": "StiText",
-              "Name": "Text4",
-              "CanGrow": true,
-              "GrowToHeight": true,
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "12,0,3,0.6",
-              "ComponentStyle": "Data1",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "{Customers.Phone}"
-              },
-              "VertAlignment": "Center",
-              "Font": ";9;;",
-              "Border": "Left;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:102,77,38",
-              "TextOptions": {
-                "WordWrap": true
-              }
-            },
-            "1": {
-              "Ident": "StiText",
-              "Name": "Text3",
-              "CanGrow": true,
-              "GrowToHeight": true,
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "15,0,4,0.6",
-              "ComponentStyle": "Data1",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "{Customers.ContactTitle}"
-              },
-              "VertAlignment": "Center",
-              "Font": ";9;;",
-              "Border": "Left, Right;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:102,77,38",
-              "TextOptions": {
-                "WordWrap": true
-              }
-            },
-            "2": {
-              "Ident": "StiText",
-              "Name": "Text1",
-              "CanGrow": true,
-              "GrowToHeight": true,
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "0.6,0,6.2,0.6",
-              "ComponentStyle": "Data1",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "{Customers.CompanyName}"
-              },
-              "VertAlignment": "Center",
-              "Font": ";9;;",
-              "Border": "Left;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:102,77,38",
-              "TextOptions": {
-                "WordWrap": true
-              },
-              "Type": "Expression"
-            },
-            "3": {
-              "Ident": "StiText",
-              "Name": "Text2",
-              "CanGrow": true,
-              "GrowToHeight": true,
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "6.8,0,5.2,0.6",
-              "ComponentStyle": "Data1",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "{Customers.Address}"
-              },
-              "VertAlignment": "Center",
-              "Font": ";9;;",
-              "Border": "Left;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:102,77,38",
-              "TextOptions": {
-                "WordWrap": true
-              }
-            },
-            "4": {
-              "Ident": "StiText",
-              "Name": "Text7",
-              "Guid": "5b832677f467498487ebd4777d80e7b0",
-              "CanGrow": true,
-              "GrowToHeight": true,
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "0,0,0.6,0.6",
-              "ComponentStyle": "Data1",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "Text": {
-                "Value": "{Line}"
-              },
-              "HorAlignment": "Center",
-              "VertAlignment": "Center",
-              "Font": ";9;;",
-              "Border": "Left;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:102,77,38",
-              "Type": "Expression"
-            }
-          },
-          "DataSourceName": "Customers",
-          "EvenStyle": "Data2"
-        },
-        "4": {
-          "Ident": "StiFooterBand",
-          "Name": "FooterBand1",
-          "ClientRectangle": "0,6,19,0.2",
-          "Interaction": {
-            "Ident": "StiInteraction"
-          },
-          "Border": ";;;;;;;solid:Black",
-          "Brush": "solid:",
-          "Components": {
-            "0": {
-              "Ident": "StiText",
-              "Name": "Text8",
-              "Guid": "dcc6258185da48c0bee4c3c0395fb37d",
-              "CanGrow": true,
-              "GrowToHeight": true,
-              "MinSize": "0,0",
-              "MaxSize": "0,0",
-              "ClientRectangle": "0,0,19,0.2",
-              "ComponentStyle": "Data1",
-              "Interaction": {
-                "Ident": "StiInteraction"
-              },
-              "VertAlignment": "Center",
-              "Font": ";9;;",
-              "Border": "Top;193,152,89;;;;;;solid:Black",
-              "Brush": "solid:",
-              "TextBrush": "solid:102,77,38",
-              "TextOptions": {
-                "WordWrap": true
-              }
-            }
-          },
-          "PrintOnAllPages": true
+    
+    public class SimpleList : Stimulsoft.Report.StiReport
+    {
+        
+		public SimpleList()
+        {
+            this.InitializeComponent();
         }
-      },
-      "PageWidth": 21.0,
-      "PageHeight": 29.7,
-      "Watermark": {
-        "Font": ";;Bold;",
-        "TextBrush": "solid:50,0,0,0"
-      },
-      "Margins": {
-        "Left": 1.0,
-        "Right": 1.0,
-        "Top": 1.0,
-        "Bottom": 1.0
-      }
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
     }
-  }
-}
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="5">
+    <Header1 Ref="25" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>Bottom;[166:166:166];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,21.75,Bold,Point,False,204</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header1>
+    <Header2 Ref="26" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>Top, Left, Right;[194:194:194];1;Solid;False;4;Black</Border>
+      <Brush>[255:164:114]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,12,Bold,Point,False,204</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[255:255:255]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header2>
+    <Data1 Ref="27" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[194:194:194];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <Name>Data1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Data1>
+    <Data2 Ref="28" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>All;[194:194:194];1;Solid;False;4;Black</Border>
+      <Brush>[240:242:246]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <Name>Data2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[64:64:64]</TextBrush>
+    </Data2>
+    <Footer1 Ref="29" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;[58:78:94];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Segoe UI,9.75,Regular,Point,False,0</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer1</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[166:166:166]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer1>
+  </Styles>
+</StiSerializer>
