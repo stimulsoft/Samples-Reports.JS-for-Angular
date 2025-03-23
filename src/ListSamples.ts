@@ -65,7 +65,7 @@ import { RouterLink } from '@angular/router';
                     <a routerLink="/Supply_Custom_Headers_for_JSON_Database">Supply Custom Headers for JSON Database</a>
                 </li>
             </ul>
-            Designer and Viewer Settings and Events
+            Working with Designer and Viewer Settings and Events
             <ul>
                 <li>
                     <a routerLink="/Customizing_the_Designer">Customizing the Designer</a>
@@ -101,7 +101,7 @@ import { RouterLink } from '@angular/router';
                     <a routerLink="/Using_the_Right-To-Left_Mode_in_the_Viewer">Using the Right-To-Left Mode in the Viewer</a>
                 </li>
             </ul>
-            Rendering, Working with Reports, and Advanced Features
+            Working with Reports and Advanced Features
             <ul>
                 <li>
                     <a routerLink="/How_to_Activate_the_Product">How to Activate the Product</a>

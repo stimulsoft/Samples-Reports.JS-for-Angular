@@ -3,42 +3,42 @@ import { ApplicationConfig, Component } from "@angular/core";
 import { provideRouter, Routes } from "@angular/router";
 import { RouterOutlet } from "@angular/router";
 
-import { LocalizingTheDesigner } from './Localizing the Designer';
-import { LocalizingTheViewer } from './Localizing the Viewer';
-import { GlobalizingReport } from './Globalizing Report';
+import { LocalizingTheDesigner } from './Localization and Globalization/Localizing the Designer';
+import { LocalizingTheViewer } from './Localization and Globalization/Localizing the Viewer';
+import { GlobalizingReport } from './Localization and Globalization/Globalizing Report';
 
-import { UsingCustomFont } from './Using a Custom Font';
-import { AddingFontToTheResource } from './Adding a Font to the Resource';
+import { UsingCustomFont } from './Fonts and Resources/Using a Custom Font';
+import { AddingFontToTheResource } from './Fonts and Resources/Adding a Font to the Resource';
 
-import { PrintingTheReportFromCode } from './Printing the Report from Code';
-import { ExportingReportToPDF } from './Exporting a Report to PDF';
-import { ExportingReportToHTML } from './Exporting a Report to HTML';
-import { ExportingReportFromCodeWithChangingExportSettings } from './Exporting a Report from Code with Changing Export Settings';
-import { ExportingManyFilesToSinglePDF } from './Exporting Many Files to Single PDF';
+import { PrintingTheReportFromCode } from './Printing and Exporting/Printing the Report from Code';
+import { ExportingReportToPDF } from './Printing and Exporting/Exporting a Report to PDF';
+import { ExportingReportToHTML } from './Printing and Exporting/Exporting a Report to HTML';
+import { ExportingReportFromCodeWithChangingExportSettings } from './Printing and Exporting/Exporting a Report from Code with Changing Export Settings';
+import { ExportingManyFilesToSinglePDF } from './Printing and Exporting/Exporting Many Files to Single PDF';
 
-import { CreatingNewDataConnectionFromCode } from './Creating a new Data Connection from code';
-import { RegisteringDataFromCode } from './Registering Data from Code';
-import { UsingSqlDataSources } from './Using SQL Data Sources';
-import { UsingParametersInSqlQuery } from './Using Parameters in SQL Query';
-import { UsingCustomDataAdapter } from './Using a Custom Data Adapter';
-import { SupplyCustomHeadersForJsonDatabase } from './Supply Custom Headers for JSON Database';
+import { CreatingNewDataConnectionFromCode } from './Data Connection and Registration/Creating a new Data Connection from code';
+import { RegisteringDataFromCode } from './Data Connection and Registration/Registering Data from Code';
+import { UsingSqlDataSources } from './Data Connection and Registration/Using SQL Data Sources';
+import { UsingParametersInSqlQuery } from './Data Connection and Registration/Using Parameters in SQL Query';
+import { UsingCustomDataAdapter } from './Data Connection and Registration/Using a Custom Data Adapter';
+import { SupplyCustomHeadersForJsonDatabase } from './Data Connection and Registration/Supply Custom Headers for JSON Database';
 
-import { CustomizingTheDesigner } from './Customizing the Designer';
-import { ChangingTheDesignerTheme } from './Changing the Designer Theme';
-import { CustomizingTheViewer } from './Customizing the Viewer';
-import { ChangingTheViewerTheme } from './Changing the Viewer Theme';
-import { ShowingReportInTheViewerWithoutToolbar } from './Showing a Report in the Viewer without Toolbar';
-import { UsingDesignerEvents } from './Using Designer Events';
-import { UsingViewerEvents } from './Using Viewer Events';
-import { WorkingWithOnDesignAndOnExitEvents } from './Working with onDesign and onExit Events';
-import { UsingTheTwoViewerInTheOneProject } from './Using the two Viewer in the One Project';
-import { GetModifiedReportFromTheDesigner } from './Get a modified Report from the Designer';
-import { UsingTheRightToLeftModeInTheViewer } from './Using the Right-To-Left Mode in the Viewer';
+import { CustomizingTheDesigner } from './Working with Designer and Viewer Settings and Events/Customizing the Designer';
+import { ChangingTheDesignerTheme } from './Working with Designer and Viewer Settings and Events/Changing the Designer Theme';
+import { CustomizingTheViewer } from './Working with Designer and Viewer Settings and Events/Customizing the Viewer';
+import { ChangingTheViewerTheme } from './Working with Designer and Viewer Settings and Events/Changing the Viewer Theme';
+import { ShowingReportInTheViewerWithoutToolbar } from './Working with Designer and Viewer Settings and Events/Showing a Report in the Viewer without Toolbar';
+import { UsingDesignerEvents } from './Working with Designer and Viewer Settings and Events/Using Designer Events';
+import { UsingViewerEvents } from './Working with Designer and Viewer Settings and Events/Using Viewer Events';
+import { WorkingWithOnDesignAndOnExitEvents } from './Working with Designer and Viewer Settings and Events/Working with onDesign and onExit Events';
+import { UsingTheTwoViewerInTheOneProject } from './Working with Designer and Viewer Settings and Events/Using the two Viewer in the One Project';
+import { GetModifiedReportFromTheDesigner } from './Working with Designer and Viewer Settings and Events/Get a modified Report from the Designer';
+import { UsingTheRightToLeftModeInTheViewer } from './Working with Designer and Viewer Settings and Events/Using the Right-To-Left Mode in the Viewer';
 
-import { HowToActivateTheProduct } from './How to Activate the Product';
-import { RenderingReportFromCode } from './Rendering a Report from Code';
-import { UsingReportVariablesInCode } from './Using Report Variables in Code';
-import { CreatingReportAtRuntime } from './Creating Report at Runtime';
+import { HowToActivateTheProduct } from './Working with Dashboards and Advanced Features/How to Activate the Product';
+import { RenderingReportFromCode } from './Working with Dashboards and Advanced Features/Rendering a Report from Code';
+import { UsingReportVariablesInCode } from './Working with Dashboards and Advanced Features/Using Report Variables in Code';
+import { CreatingReportAtRuntime } from './Working with Dashboards and Advanced Features/Creating Report at Runtime';
 
 import { ListSamples } from './ListSamples'
 
