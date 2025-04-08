@@ -4,9 +4,14 @@ import { Stimulsoft } from "stimulsoft-reports-js-angular";
 @Component({
     selector: "exporting-report-to-pdf",
     template: `
-        <div>
-            <button (click)="saveReportPdf()">Export and Save PDF report to file</button>
-        </div>`
+        <div class="container">
+            <h4>This sample demonstrates how to export a report to a PDF file and save it:</h4>
+            <div class="container-button">
+                <button (click)="saveReportPdf()" class="button" title="Export Report to PDF File">Export to PDF</button>
+            </div>
+        </div>
+        `,
+    styleUrls: ['../styles.css']
 })
 
 export class ExportingReportToPDF {
