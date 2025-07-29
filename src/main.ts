@@ -35,10 +35,10 @@ import { UsingTheTwoViewerInTheOneProject } from './Working with Designer and Vi
 import { GetModifiedReportFromTheDesigner } from './Working with Designer and Viewer Settings and Events/Get a modified Report from the Designer';
 import { UsingTheRightToLeftModeInTheViewer } from './Working with Designer and Viewer Settings and Events/Using the Right-To-Left Mode in the Viewer';
 
-import { HowToActivateTheProduct } from './Working with Dashboards and Advanced Features/How to Activate the Product';
-import { RenderingReportFromCode } from './Working with Dashboards and Advanced Features/Rendering a Report from Code';
-import { UsingReportVariablesInCode } from './Working with Dashboards and Advanced Features/Using Report Variables in Code';
-import { CreatingReportAtRuntime } from './Working with Dashboards and Advanced Features/Creating Report at Runtime';
+import { HowToActivateTheProduct } from './Working with Reports and Advanced Features/How to Activate the Product';
+import { RenderingReportFromCode } from './Working with Reports and Advanced Features/Rendering a Report from Code';
+import { UsingReportVariablesInCode } from './Working with Reports and Advanced Features/Using Report Variables in Code';
+import { CreatingReportAtRuntime } from './Working with Reports and Advanced Features/Creating Report at Runtime';
 
 import { ListSamples } from './ListSamples'
 
